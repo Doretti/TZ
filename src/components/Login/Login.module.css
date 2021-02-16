@@ -1,0 +1,86 @@
+.LoginBlock {
+  border-radius: 5px;
+  border: 1px solid rgba(39, 39, 39, 0.1);
+  background-color: #fff;
+  padding: 40px 88px;
+  width: 510px;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 32px;
+}
+
+.auth {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(23, 23, 25, 0.3);
+}
+
+.wrapper {
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  border-radius: 5px;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 24px;
+  color: #272727;
+  background: transparent;
+}
+
+.login {
+  padding: 14px 59.5px;
+  background: #1390e5;
+  border-radius: 5px;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.eye {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.active {
+  background: rgba(197, 228, 249, 0.3);
+  border: 1px solid #1390e5;
+}
+
+.loginWrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

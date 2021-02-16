@@ -1,0 +1,29 @@
+export const ON_PASS = 'ON_PASS'
+export const OFF_PASS = 'OFF_PASS'
+export const TOGGLE_ACTIVE_PASS = 'TOGGLE_ACTIVE_PASS'
+export const TOGGLE_ACTIVE_LOGIN = 'TOGGLE_ACTIVE_LOGIN'
+export const AUTH = 'AUTH'
+export const CHECK_AUTH = 'CHECK_AUTH'
+
+// LOGIN
+
+export const TOGGLE_ACTIVE_SEARCH = 'TOGGLE_ACTIVE_SEARCH'
+export const CHANGE_INPUT = 'CHANGE_INPUT'
+export const UPDATE_TOTAL_RESULTS = 'UPDATE_TOTAL_RESULTS'
+export const UPDATE_VIDEOS = 'UPDATE_VIDEOS'
+export const SWITCH_SORT = 'SWITCH_SORT'
+export const SEARCH = 'SEARCH'
+export const CHANGE_SEARCH_NAME = 'CHANGE_SEARCH_NAME'
+export const TOGGLE_MODAL = 'TOGGLE_MODAL'
+export const CHANGE_RANGE = 'CHANGE_RANGE'
+export const CHANGE_MODAL_COMP = 'CHANGE_MODAL_COMP'
+export const DELETE_FAV = 'DELETE_FAV'
+
+// SEARCH
+
+export const ADD_FAV = 'ADD_FAV'
+export const UPDATE_FILE = 'UPDATE_FILE'
+export const CHANGE_FAV = 'CHANGE_FAV'
+export const CHANGE_NAME = 'CHANGE_NAME'
+
+// FAVORITES

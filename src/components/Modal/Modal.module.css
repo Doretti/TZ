@@ -1,0 +1,124 @@
+.wrapper {
+  position: absolute;
+  left: 0px;
+  top: -83px;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(117, 199, 255, 0.8);
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  padding: 36px 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px rgba(19, 144, 229, 0.8);
+  width: 510px;
+}
+
+.modalLabel {
+  color: #272727;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.modalWrapper {
+  border-radius: 5px;
+  background: #fafafa;
+  border: 1px solid rgba(23, 23, 25, 0.1);
+}
+
+.modalWrapper input {
+  background: transparent;
+  color: #272727;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+}
+
+.modalWrapper input::placeholder {
+  opacity: 0.3;
+}
+
+.form {
+  margin-bottom: 24px;
+}
+
+.modalTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.range input {
+  width: 100%;
+}
+
+.value {
+  display: flex;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  margin-left: 20px;
+  width: 100px;
+}
+
+label span {
+  color: red;
+}
+
+.range {
+  display: flex;
+  justify-content: center;
+}
+
+.rangeForm {
+  margin-bottom: 36px;
+}
+
+.btn {
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 10px;
+  outline: none;
+  padding: 14px 40px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
+
+.first {
+  background: #ffffff;
+  border: 1px solid #1390e5;
+  border-radius: 10px;
+  color: #1390e5;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.second {
+  background: #1390e5;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  width: 49%;
+}
+
+.req {
+  opacity: 0.3;
+}
+
+.mainWrap {
+  top: 0;
+}
