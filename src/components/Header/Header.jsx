@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { NavLink } from 'react-router-dom'
 import s from './Header.module.css'
-import { search, updateTotalResults, updateVideos, changeSearchName, changeInput, changeModalComp } from '../../redux/actions'
+import { search, updateTotalResults, updateVideos, changeSearchName, changeInput, changeModalComp, logout } from '../../redux/actions'
 
 const Header = (props) => {
 
@@ -15,7 +15,7 @@ const Header = (props) => {
     }
 
     const exit = () => {
-        localStorage.removeItem('token')
+        props.logout(true)
     }
 
     return (
@@ -36,7 +36,7 @@ const Header = (props) => {
                 </nav>
             </div>
             <div className={s.exit}>
-                <NavLink to='/' onClick={exit} className={s.exit}>Выйти</NavLink>
+                <NavLink to='/login' onClick={exit} className={s.exit}>Выйти</NavLink>
             </div>
         </header>
     )
@@ -48,7 +48,8 @@ const mapDispatchToProps = {
     updateVideos,
     changeSearchName,
     changeInput,
-    changeModalComp
+    changeModalComp,
+    logout
 }
 
 export default connect(null, mapDispatchToProps)(Header)

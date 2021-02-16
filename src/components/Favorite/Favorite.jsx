@@ -21,7 +21,6 @@ const Favorite = (props) => {
     }
 
     const del = () => {
-        debugger
         props.deleteFav(props.index)
     }
 

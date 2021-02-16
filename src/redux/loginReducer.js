@@ -1,4 +1,4 @@
-import { AUTH, CHECK_AUTH, OFF_PASS, ON_PASS, TOGGLE_ACTIVE_LOGIN, TOGGLE_ACTIVE_PASS } from "./types"
+import { AUTH, CHECK_AUTH, LOGOUT, OFF_PASS, ON_PASS, TOGGLE_ACTIVE_LOGIN, TOGGLE_ACTIVE_PASS } from "./types"
 import db from '../acc.json'
 import { sign, verify } from "jsonwebtoken"
 import secret from '../config.json'
@@ -36,7 +36,10 @@ export const loginReducer = (state = initialState, action) => {
                 }
             }
             return state
-            
+        
+        case LOGOUT:
+            localStorage.removeItem('token')
+            return {...state, auth: !action.status}
 
         default: return state
     }

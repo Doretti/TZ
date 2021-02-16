@@ -4,6 +4,7 @@ export const TOGGLE_ACTIVE_PASS = 'TOGGLE_ACTIVE_PASS'
 export const TOGGLE_ACTIVE_LOGIN = 'TOGGLE_ACTIVE_LOGIN'
 export const AUTH = 'AUTH'
 export const CHECK_AUTH = 'CHECK_AUTH'
+export const LOGOUT = 'LOGOUT'
 
 // LOGIN
 
